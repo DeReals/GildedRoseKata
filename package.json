@@ -1,0 +1,21 @@
+{
+  "name": "gildedrosekata",
+  "version": "1.0.0",
+  "description": "This is a modified version of the Gilded Rose Kata, to use in CS 482 - Software Engineering at Loyola University Maryland by Prof. H. Rocha.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hscrocha/GildedRoseKata.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/hscrocha/GildedRoseKata/issues"
+  },
+  "homepage": "https://github.com/hscrocha/GildedRoseKata#readme"
+}
