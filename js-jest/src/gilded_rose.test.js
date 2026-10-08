@@ -25,6 +25,14 @@ describe("Gilded Rose", function() {
     expect(items[3].quality).toBe(50);
   });
 
+  // test: backstage quality
+  it("Backstage test", function() {
+    const gildedRose = new Shop([new Item("Backstage passes to a TAFKAL80ETC concert", 5, 40)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toBe(43);
+
+  });
+
   // test: Quality over 50
 
   // test: Sulfuras never decreases in quality
