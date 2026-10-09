@@ -34,6 +34,11 @@ describe("Gilded Rose", function() {
   });
 
   // test: Quality over 50
+  it("Normal test", function(){
+    const gildedRose = new Shop([new Item("Bread", 7, 51)]);
+    const items = gildedRose.updateQuality();
+    expect(items[0].quality).toBe(50);
+  });
 
   // test: Sulfuras never decreases in quality
 
